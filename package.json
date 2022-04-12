@@ -3,16 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-inlinesvg": "^2.3.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.0",
     "recoil": "^0.7.0",
+    "sequelize": "^6.19.0",
     "styled-components": "^5.3.5"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "go": "react-scripts start",
+    "start": "node ./server/database.js && npm build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

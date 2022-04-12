@@ -1,0 +1,10 @@
+export const birdsIcon = require('./birds.svg').default
+export const fanIcon = require('./fan.svg').default
+export const fireplaceIcon = require('./fireplace.svg').default
+export const heavyRainIcon = require('./heavyRain.svg').default
+export const jungleIcon = require('./jungle.svg').default
+export const oceanIcon = require('./ocean.svg').default
+export const rainIcon = require('./rain.svg').default
+export const riverIcon = require('./river.svg').default
+export const sandIcon = require('./sand.svg').default
+export const treesIcon = require('./trees.svg').default
